@@ -1,10 +1,12 @@
-# PARTICLES
+<h1 align="center">PARTICLES</h1>
 
-A turn-based simulation game on a 2D grid where Runners try to survive while Chasers hunt them.
+<p align="center"><strong>A turn-based simulation game on a 2D grid where Runners try to survive while Chasers hunt them.</strong></p>
 
 ---
 
-### Overview
+## 🇬🇧 English
+
+### 🎮 Overview
 
 PARTICLES is a console-based Java game where autonomous entities interact on a board:
 
@@ -16,7 +18,7 @@ PARTICLES is a console-based Java game where autonomous entities interact on a b
 
 The game ends when one side is eliminated or when the turn limit is reached.
 
-### Core Mechanics
+### ⚙️ Core Mechanics
 
 | Element | Behavior |
 | --- | --- |
@@ -26,7 +28,7 @@ The game ends when one side is eliminated or when the turn limit is reached.
 | Healer | Adjacent Runner receives extra life, then the Healer is removed. |
 | Speeder | Adjacent Chaser gains 5 boosted turns (2 movement steps per turn), then the Speeder is removed. |
 
-### Turn Flow
+### 🔄 Turn Flow
 
 Each iteration of the loop runs this order:
 
@@ -36,7 +38,7 @@ Each iteration of the loop runs this order:
 4. Apply speed pickups (`Speed`).
 5. Remove dead roles and print updated board/state.
 
-### Difficulty
+### 🧩 Difficulty
 
 Difficulty affects generation density:
 
@@ -46,7 +48,7 @@ Difficulty affects generation density:
 
 For obstacles, runners and chasers the max amount scales approximately with total cells divided by `20`, `15`, `10` for levels `1`, `2`, `3`.
 
-### Project Structure
+### 🗂️ Project Structure
 
 ```text
 src/
@@ -79,7 +81,7 @@ src/
 		Position.java
 ```
 
-### How to Run
+### ▶️ How to Run
 
 Requirements:
 
@@ -98,7 +100,7 @@ Run:
 java -cp bin Play
 ```
 
-### In-Game Configuration
+### 🕹️ In-Game Configuration
 
 Menu options:
 
@@ -109,7 +111,7 @@ Menu options:
 
 Board size input is validated in range `10` to `50` for both height and width.
 
-### Win Conditions
+### 🏁 Win Conditions
 
 The simulation ends when:
 
@@ -121,7 +123,9 @@ At the end, the side with more survivors is declared the winner.
 
 ---
 
-### Descripcion General
+## 🇪🇸 Espanol
+
+### 🎮 Descripcion General
 
 PARTICLES es un juego de consola en Java donde entidades autonomas interactuan sobre un tablero:
 
@@ -133,7 +137,7 @@ PARTICLES es un juego de consola en Java donde entidades autonomas interactuan s
 
 La partida termina cuando un bando se elimina o cuando se alcanza el limite de turnos.
 
-### Mecanicas Principales
+### ⚙️ Mecanicas Principales
 
 | Elemento | Comportamiento |
 | --- | --- |
@@ -143,7 +147,7 @@ La partida termina cuando un bando se elimina o cuando se alcanza el limite de t
 | Healer | Un Runner adyacente recibe vida extra y el Healer desaparece. |
 | Speeder | Un Chaser adyacente obtiene 5 turnos potenciados (2 pasos por turno) y el Speeder desaparece. |
 
-### Flujo de Turno
+### 🔄 Flujo de Turno
 
 Cada iteracion del bucle se ejecuta en este orden:
 
@@ -153,7 +157,7 @@ Cada iteracion del bucle se ejecuta en este orden:
 4. Aplicacion de velocidad (`Speed`).
 5. Eliminacion de roles muertos e impresion de tablero/estado.
 
-### Dificultad
+### 🧩 Dificultad
 
 La dificultad afecta la densidad de generacion:
 
@@ -163,7 +167,7 @@ La dificultad afecta la densidad de generacion:
 
 Para obstaculos, runners y chasers, la cantidad maxima escala aproximadamente con el total de celdas dividido por `20`, `15`, `10` para niveles `1`, `2`, `3`.
 
-### Estructura del Proyecto
+### 🗂️ Estructura del Proyecto
 
 ```text
 src/
@@ -196,7 +200,7 @@ src/
 		Position.java
 ```
 
-### Como Ejecutarlo
+### ▶️ Como Ejecutarlo
 
 Requisitos:
 
@@ -215,7 +219,7 @@ Ejecutar:
 java -cp bin Play
 ```
 
-### Configuracion en el Menu
+### 🕹️ Configuracion en el Menu
 
 Opciones disponibles:
 
@@ -226,7 +230,7 @@ Opciones disponibles:
 
 El tamano del tablero se valida entre `10` y `50` para alto y ancho.
 
-### Condiciones de Victoria
+### 🏁 Condiciones de Victoria
 
 La simulacion termina cuando:
 
