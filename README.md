@@ -2,6 +2,11 @@
 
 <p align="center"><strong>A turn-based simulation game on a 2D grid where Runners try to survive while Chasers hunt them.</strong></p>
 
+## 🌐 Web Expansion
+
+- English: This project has an extended web version deployed in this repository: [mpjmar/Particles](https://github.com/mpjmar/Particles) (SSH: `git@github.com:mpjmar/Particles.git`).
+- Espanol: Este proyecto tiene una ampliacion en version web desplegada en este repositorio: [mpjmar/Particles](https://github.com/mpjmar/Particles) (SSH: `git@github.com:mpjmar/Particles.git`).
+
 ---
 
 ## 🇬🇧 English
