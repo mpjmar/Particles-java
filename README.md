@@ -4,12 +4,9 @@
 
 ## 🌐 Web Expansion
 
-- English: This project has an extended web version deployed in this repository: [mpjmar/Particles](https://github.com/mpjmar/Particles) (SSH: `git@github.com:mpjmar/Particles.git`).
-- Espanol: Este proyecto tiene una ampliacion en version web desplegada en este repositorio: [mpjmar/Particles](https://github.com/mpjmar/Particles) (SSH: `git@github.com:mpjmar/Particles.git`).
+- This project has an extended web version deployed in this repository: [mpjmar/Particles](https://github.com/mpjmar/Particles) (SSH: `git@github.com:mpjmar/Particles.git`).
 
 ---
-
-## 🇬🇧 English
 
 ### 🎮 Overview
 
@@ -128,7 +125,9 @@ At the end, the side with more survivors is declared the winner.
 
 ---
 
-## 🇪🇸 Espanol
+## 🌐 Expansion Web
+
+- Este proyecto tiene una ampliacion en version web desplegada en este repositorio: [mpjmar/Particles](https://github.com/mpjmar/Particles) (SSH: `git@github.com:mpjmar/Particles.git`).
 
 ### 🎮 Descripcion General
 
