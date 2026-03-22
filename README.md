@@ -143,6 +143,10 @@ PARTICLES es un juego de consola en Java donde entidades autonomas interactuan s
 - Los Speeder (`▶`) dan velocidad temporal a Chaser adyacentes.
 - Los Obstacle (`█`) bloquean el movimiento.
 
+<p align="center">
+	<img src="imgs/game.png" alt="Captura de juego" heigth="150px" />
+</p>
+
 La partida termina cuando un bando se elimina o cuando se alcanza el limite de turnos.
 
 ### ⚙️ Mecanicas Principales
