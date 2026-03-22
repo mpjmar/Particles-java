@@ -11,8 +11,8 @@
 ### 🎮 Overview
 
 <p align="center">
-	<img src="imgs/menu.png" alt="Captura de menu" width="50%" />
-	<img src="imgs/game.png" alt="Captura de juego" width="50%" />
+	<img src="imgs/menu.png" alt="Captura de menu" width="40%" />
+	<img src="imgs/game.png" alt="Captura de juego" width="40%" />
 </p>
 
 PARTICLES is a console-based Java game where autonomous entities interact on a board:
