@@ -10,11 +10,6 @@
 
 ### 🎮 Overview
 
-<p align="center">
-	<img src="imgs/menu.png" alt="Captura de menu" heigth="100px" />
-	<img src="imgs/game.png" alt="Captura de juego" heigth="150px" />
-</p>
-
 PARTICLES is a console-based Java game where autonomous entities interact on a board:
 
 - Runners (`●`) avoid nearby Chasers.
@@ -22,6 +17,10 @@ PARTICLES is a console-based Java game where autonomous entities interact on a b
 - Healers (`◆`) restore Runner life when adjacent.
 - Speeders (`▶`) grant temporary speed boosts to Chasers.
 - Obstacles (`█`) block movement.
+
+<p align="center">
+	<img src="imgs/game.png" alt="Captura de juego" heigth="150px" />
+</p>
 
 The game ends when one side is eliminated or when the turn limit is reached.
 
